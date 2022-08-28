@@ -8,7 +8,7 @@ export default class Tortuga {
         let paso = this._paso.caminar();
         if (paso <= 10)
             this._pos += 3;
-        else if (paso < 17)
+        else if (paso < 15)
             this._pos -= 6;
         else
             this._pos += 1;
