@@ -6,9 +6,9 @@ let str_c1 = '', str_c2 = '', str_final = '';
 let i = 1;
 do {
     str_c1 = `Liebre:` + liebre.avanzar();
-    str_c2 = `\t\tTortuga:` + tortuga.avanzar();
+    str_c2 = `\t\tsTortuga:` + tortuga.avanzar();
 
-    str_final += str_c1 + str_c2 + `\n`;
+    str_final += `Marca ${i}:[`+ str_c1 + str_c2 + `]\n`;
     i++;
 } while (liebre._pos < 100 && tortuga._pos < 100);
 
