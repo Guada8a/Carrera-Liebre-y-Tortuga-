@@ -5,8 +5,8 @@ let tortuga = new Tortuga();
 let str_c1 = '', str_c2 = '', str_final = '';
 let i = 1;
 do {
-    str_c1 = `Liebre:` + liebre.avanzar();
-    str_c2 = `\t\tsTortuga:` + tortuga.avanzar();
+    str_c1 = `Liebre:` + liebre.avanzar() + `]`;
+    str_c2 = `\t\t[Tortuga:` + tortuga.avanzar();
 
     str_final += `Marca ${i}:[`+ str_c1 + str_c2 + `]\n`;
     i++;
